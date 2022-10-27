@@ -1,0 +1,390 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.body-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.side-nav{
+    margin: 0rem 3rem 0rem 0rem;
+    background-color: rgb(240, 231, 231);
+    
+    width:7%;
+    align-items: center;
+    text-align: center;
+
+}
+
+.navbar-home{
+    margin-bottom: 7rem;
+    margin-top: 10rem;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(255, 252, 252);
+}
+.navbar-about{
+    margin-bottom: 7rem;
+    color: white; cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+.navbar-blog{
+    margin-bottom: 7rem;
+    color: white; cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-contact{
+    margin-bottom: 50rem;
+    color: white; cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.content{
+    margin: 7rem 8rem 0rem 4rem;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    
+}
+
+.heading-topic-time{
+    display: flex;
+    flex-direction:row;
+}
+
+.heading-topic{
+    margin-right: 0.5rem;
+    color: #d8588c;
+    font-size: 18px;
+    font-weight: 700;
+}
+.heading-time{
+    color: rgba(179, 172, 172, 0.709);
+    font-size: 18px;
+    font-weight: 700;
+}
+.text-header-heading{
+    font-size: 35px;
+    font-weight: 900;
+    
+    
+}
+
+.text-header-para{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+
+.text-header-para-child{
+    margin-top: 2rem;
+   color: rgb(0, 0, 0);
+   font-size: 16px;
+   font-style: italic;
+   display: flex;
+   flex-direction: row;
+}
+
+
+
+
+.full-text-list{
+    flex-direction: column;
+    display: flex;
+    margin: 5rem 0rem 0rem 0rem;
+}
+
+.text-list-box-1{
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+}
+
+.text-list-box-1-para{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-list-box-1-para-topic{
+    color: #d8588c;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 1rem;
+}
+
+.text-list-box-1-para-date{
+    color: rgba(128, 128, 128, 0.709);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.text-list-box-1-heading{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+.bg-img-child{
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 0rem 0rem 0rem -19rem;
+    width: 550px;
+    height: 100%;
+    position: fixed;
+}
+
+
+
+/* about*/
+
+
+
+
+
+.big-img-child2{
+    width: 100%;
+    height: 30%;
+}
+
+.about-text{
+    margin: 5rem 15rem 0rem 15rem ;
+    color: black;
+}
+
+.about-header-text{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0rem 0rem 3rem 0rem ;
+}
+
+.about-para{
+margin-bottom: 6rem;
+display: flex;
+flex-direction: row;
+font-style: italic;
+font-size: 21px;
+color: rgba(69, 57, 57, 0.887);
+}
+
+.about-para-1{
+    margin-right: 2rem;
+    align-items:flex-start;
+    text-align: start;
+    width: 95%;
+}
+.about-para-2{
+    margin-left: 5rem;
+    align-items:flex-start;
+    text-align: start;
+    width: 100%;
+}
+
+.about-review-box{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10rem;
+    background-color: #f1f1f1;
+    margin-left: 10rem;
+    margin-right: 10rem;
+   
+}
+.h{
+    display: flex;
+    flex-direction:column; 
+    width: 50%;
+    margin-left:4% ;
+    font-style: italic;
+    font-size: 17px;
+    color: black;
+}
+
+.g{
+    color: #0697ae;  
+    margin: 3rem 0rem 3rem 0rem;
+
+}
+.about-review-img-child{
+   width: 30rem; 
+   margin-left: 0%;
+ 
+}
+
+.about-review-heading-1{
+  font-size: 20px;
+}
+
+
+/* contact page */
+
+
+.map{
+    margin-bottom:0rem;
+    margin-top: -90rem;
+    margin-left: 10rem;
+}
+
+
+.contact{
+    margin-top: 4rem;
+    margin-left: 15rem;
+    margin-bottom: 5rem;
+    
+}
+.cnt-header{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.contact-txt{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-1{
+    width: 50%;
+    font-size: 17px;
+    font-style: italic;
+    
+}
+.contact-2{
+    margin-left: 0%;
+    
+}
+
+.cnt-btn{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-clr{
+    margin-left: 10rem;
+    font-size: 17px;
+    color: black;
+    font-weight: 400;
+    width: 20rem; height:3rem; border-left: 30px ; border-right: 30px ; border-top: 30px ;border-color: black; margin-bottom: 2rem; background-color: rgb(255, 255, 255);
+}
+.btn-clr-2{ margin-left:10rem;  color: black;
+    font-weight: 400;
+    height: 10rem;
+    border-left: 30px ; border-right: 30px ; border-top: 30px ;border-color: black; margin-bottom: 2rem; background-color: rgb(255, 255, 255);
+}
+
+.sp1{
+    color: gray;
+}
+
+input.btn-clr::placeholder{
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.666);
+}
+
+textarea::placeholder{
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.666);
+}
+
+
+/* text-blog */
+
+
+.client-header-box-1 {
+    padding: 10rem;
+    margin-bottom: 7rem;
+    display: flex;
+    flex-direction:column;
+}
+
+.client-header {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 7rem;
+
+}
+
+.client-box-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.client-box {
+    background-color: rgb(255, 255, 255);
+    margin: 0rem 3rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
+    border-radius: 1rem;
+    overflow: visible;
+    height: 27rem;
+    width: 25%;
+    border: 2px solid;
+   
+}
+
+.box-img-1 {
+    margin: 0rem 0rem 0rem 3rem;
+    width: 8rem;
+    height: 8rem;
+}
+
+.box-text-1 {
+    font-size: 19px;
+    padding: 2rem;
+    padding-bottom: 5rem;
+    background-color: #e3fff8;
+    border-top: 2px solid;
+
+}
+
+
+
+.review-box {
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+   
+    margin-left: 10rem;
+   
+}
+
+
+
+.review-box-img-text-1 {
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 0rem 0rem 5rem;
+}
+
+.review-img-1 {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 3rem;
+    border: 2px solid;
+}
+
+.img-header-text {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 17px;
+    font-weight: 700;
+    width: 15rem;
+    padding-top: 1rem;
+    border-top: 1px solid;
+
+}
+
+.review-box-para {
+    width: 27rem;
+    height: 15rem;
+    margin: 8rem 0rem 0rem -23rem;
+    align-items: center;
+    text-align: start;
+    text-align: justify;
+
+}
+
+
+
